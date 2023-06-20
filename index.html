@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>reverse of a number</title>
+    </head>
+    <body>
+        <script>
+            let number=prompt("enter a number");
+            reversednumber=0;
+            while(number>0){
+                reversednumber=reversednumber*10+number%10;
+                number=Math.floor(number/10);
+            }
+            console.log("reversed number:",reversednumber);
+        </script>
+    </body>
+</html>
